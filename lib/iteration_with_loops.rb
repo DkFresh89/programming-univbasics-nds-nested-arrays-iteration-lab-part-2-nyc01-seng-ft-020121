@@ -12,7 +12,7 @@ while row_index < src.count do
     end 
     element_index += 1 
   end 
-  evens << min_val
+  lows << min_val
   row_index += 1 
 end
 lows
