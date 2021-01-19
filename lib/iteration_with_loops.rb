@@ -8,7 +8,7 @@ while row_index < src.count do
   min_val = 100
   while element_index < src[row_index].count do
     if src[row_index][element_index] < min_val
-      src[row_index][element_index] = min_val
+      min_val = src[row_index][element_index]
     end 
     element_index += 1 
   end 
